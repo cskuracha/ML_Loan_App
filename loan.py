@@ -55,4 +55,4 @@ def predict_loan():
     return {'loan_approval_status': result}
 
 if __name__ == "__main__":
-    app.run(debug=True) # all changes will be reflected immediately, no need to restart the server.
+    app.run(debug=True) # all changes will be reflected immediately, no need to restart the server
